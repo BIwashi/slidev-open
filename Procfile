@@ -1,1 +1,1 @@
-web: npx slidev --open -p $PORT
+web: npm run dev -p $PORT 
