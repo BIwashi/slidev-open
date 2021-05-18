@@ -1,1 +1,1 @@
-web: npm run build　--log-file -
+web: npm run dev --log-file -
