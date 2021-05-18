@@ -3,7 +3,7 @@
 
 [build]
   publish = "dist"
-  command = "npx slidev build"
+  command = "npm install || npx slidev build"
 
 [[redirects]]
   from = "/*"
