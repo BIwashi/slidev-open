@@ -1,1 +1,1 @@
-web: echo y | npm run dev -p $PORT
+web: npm install | npm run dev -p $PORT
