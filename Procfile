@@ -1,1 +1,1 @@
-web: npm run dev --log-file -
+web: npm run dev -p $PORT --log-file -
