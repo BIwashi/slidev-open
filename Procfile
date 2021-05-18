@@ -1,1 +1,1 @@
-web: npx slidev --open -p $PORT --log-file - 
+web: npx slidev --open -p $PORT --log-file=-
