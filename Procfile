@@ -1,1 +1,1 @@
-web: npm install | npx slidev -p $PORT
+web: npm install | npx slidev -p $PORT --remote
