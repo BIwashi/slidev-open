@@ -1,1 +1,1 @@
-web: npm install | npm run dev -p $PORT
+web: npm install | npx slidev -p $PORT
