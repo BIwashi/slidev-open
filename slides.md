@@ -93,7 +93,6 @@ h1 {
 - 各地域で独自に無人航空機に関する条例が定められている
   - ex.) 東京都立公園条例
 
-
 # 電波法
 - セルラードローンの規制
   - 携帯キャリアの通信網を利用して通信を行うドローンのこと
@@ -316,19 +315,20 @@ $ brew install px4-sim-gazebo`
 
 ```
 
-clone
+git clone する　<br>
 sumodule が大量にあるので、--recursiveを忘れない
 
-```py{0|1|0}
+```py
 $ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
 
 シミュレーター実行
 
-```py{0|all}
+```py
 $ cd /path/to/PX4-Autopilot
 $ make px4_sitl gazebo
 ```
+
 
 ---
 
@@ -394,4 +394,3 @@ matplotlib
 - ここの通信は MavLink という特殊なプロトコルで行われているが、これをラッパーしたライブラリは実は Python 製以外も存在する（ex, Golang 製 の Gobot など）
 
 <img border="rounded" src="https://i.gyazo.com/1b47e2446efb42d4416ab68b404159fb.png" class='object-contain object-centor h-80 w-full'>
-
