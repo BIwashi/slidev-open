@@ -317,7 +317,7 @@ $ brew install px4-sim-gazebo`
 ```
 
 git clone する　<br>
-sumodule が大量にあるので、--recursiveを忘れない
+sumodule が大量にあるので、-- recursiveを忘れない
 
 ```py
 $ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
