@@ -9,8 +9,9 @@ info: |
 
   Learn more at [Sli.dev](https://sli.dev)
 ---
+
 # 研究室ツール紹介
-## Drone編
+## UAV編
 
 岩見彰太
 
